@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[details verified succesfully]]>
+    </line>
+    <line>
+      <![CDATA[details verified succesfully]]>
+    </line>
+    <line>
+      <![CDATA[connection closed succesfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48524" started-at="2022-04-12T11:25:48Z" finished-at="2022-04-12T11:26:36Z">
+    <groups>
+    </groups>
+    <test name="classes" duration-ms="46150" started-at="2022-04-12T11:25:48Z" finished-at="2022-04-12T11:26:34Z">
+      <class name="com.crm.practise.LuckyTest">
+        <test-method status="PASS" signature="openDatabase()[pri:0, instance:com.crm.practise.LuckyTest@3d299e3]" name="openDatabase" is-config="true" duration-ms="834" started-at="2022-04-12T11:25:47Z" finished-at="2022-04-12T11:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDatabase -->
+        <test-method status="PASS" signature="launchTheBrowser(java.lang.String)[pri:0, instance:com.crm.practise.LuckyTest@3d299e3]" name="launchTheBrowser" is-config="true" duration-ms="12637" started-at="2022-04-12T11:25:48Z" finished-at="2022-04-12T11:26:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:com.crm.practise.LuckyTest@3d299e3]" name="loginToApplication" is-config="true" duration-ms="5697" started-at="2022-04-12T11:26:00Z" finished-at="2022-04-12T11:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="luckyTest()[pri:0, instance:com.crm.practise.LuckyTest@3d299e3]" name="luckyTest" duration-ms="23642" started-at="2022-04-12T11:26:06Z" finished-at="2022-04-12T11:26:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[details verified succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- luckyTest -->
+        <test-method status="PASS" signature="signOutTheApplication()[pri:0, instance:com.crm.practise.LuckyTest@3d299e3]" name="signOutTheApplication" is-config="true" duration-ms="2208" started-at="2022-04-12T11:26:30Z" finished-at="2022-04-12T11:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutTheApplication -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.crm.practise.LuckyTest@3d299e3]" name="closeTheBrowser" is-config="true" duration-ms="1953" started-at="2022-04-12T11:26:32Z" finished-at="2022-04-12T11:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method status="PASS" signature="closeTheDatabase()[pri:0, instance:com.crm.practise.LuckyTest@3d299e3]" name="closeTheDatabase" is-config="true" duration-ms="160" started-at="2022-04-12T11:26:36Z" finished-at="2022-04-12T11:26:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[connection closed succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeTheDatabase -->
+      </class> <!-- com.crm.practise.LuckyTest -->
+    </test> <!-- classes -->
+    <test name="Test" duration-ms="48524" started-at="2022-04-12T11:25:48Z" finished-at="2022-04-12T11:26:36Z">
+      <class name="com.crm.practise.LuckyTest">
+        <test-method status="PASS" signature="launchTheBrowser(java.lang.String)[pri:0, instance:com.crm.practise.LuckyTest@2c34f934]" name="launchTheBrowser" is-config="true" duration-ms="9143" started-at="2022-04-12T11:25:48Z" finished-at="2022-04-12T11:25:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromedriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:com.crm.practise.LuckyTest@2c34f934]" name="loginToApplication" is-config="true" duration-ms="9930" started-at="2022-04-12T11:25:57Z" finished-at="2022-04-12T11:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="luckyTest()[pri:0, instance:com.crm.practise.LuckyTest@2c34f934]" name="luckyTest" duration-ms="27281" started-at="2022-04-12T11:26:07Z" finished-at="2022-04-12T11:26:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[details verified succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- luckyTest -->
+        <test-method status="PASS" signature="signOutTheApplication()[pri:0, instance:com.crm.practise.LuckyTest@2c34f934]" name="signOutTheApplication" is-config="true" duration-ms="1398" started-at="2022-04-12T11:26:34Z" finished-at="2022-04-12T11:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutTheApplication -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.crm.practise.LuckyTest@2c34f934]" name="closeTheBrowser" is-config="true" duration-ms="744" started-at="2022-04-12T11:26:35Z" finished-at="2022-04-12T11:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.practise.LuckyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
